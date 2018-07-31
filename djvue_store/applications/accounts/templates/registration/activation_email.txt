@@ -1,0 +1,7 @@
+Dear {{ user }}
+
+Please activate your account at the link below. This activation request is valid for {{expiration_days }} {% if expiration_days > 1 %}days.{% else %}day.{% endif %}
+{{ scheme }}://{{ site }}/accounts/activate/{{ activation_key }}/
+
+Regards
+Your MyStore Team.

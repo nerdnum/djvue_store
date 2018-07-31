@@ -1,0 +1,7 @@
+Django==1.11.14
+django-webpack-loader==0.6.0
+django-environ==0.4.5
+djangorestframework==3.8.2
+django-registration==2.4.1
+jango-settings-export==1.2.1
+psycopg2==2.7.5
